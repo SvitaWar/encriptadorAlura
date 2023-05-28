@@ -95,6 +95,7 @@ main{
     cursor: pointer;
     flex: none;
     flex-grow: 0;
+    font-size: 16px;
     padding: 24px;
     gap: 8px;
     height: 67px;
@@ -110,6 +111,7 @@ main{
     cursor: pointer;
     flex: none;
     flex-grow: 0;
+    font-size: 16px;
     gap: 8px;
     height: 67px;
     order: 1;
@@ -121,7 +123,7 @@ main{
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     box-sizing: border-box;
     border-radius: 32px;
-    height: 944px;
+    height: 850px;
     left: 73%;
     padding-right: 20px;
     position: absolute;
@@ -130,7 +132,7 @@ main{
 
 .contenedor-munieco{
     box-sizing: border-box;
-    height: 304.03px;
+    height: 310px;
     left: 30px;
     padding-top: 50px;
 }
@@ -138,7 +140,7 @@ main{
 .contenedor-parrafo{
     box-sizing: border-box;
     left: 40px;
-    top: 40%;
+    top: 50%;
     position: absolute;
     
 }
@@ -191,7 +193,7 @@ main{
     height: 67px;     
     padding: 0;
     position: absolute;
-    right: 4px;
+    left: 40px;
     top: 90%;
     width: 328px;
 }
@@ -204,4 +206,18 @@ main{
 
 .ocultar{
     display: none;
+}
+
+footer{
+    color: #495057;
+    display: flex;
+    flex-direction: row;
+    font-size: 11px;
+    gap: 8px;
+    height: 18px;
+    left: 100px;
+    padding: 0px;
+    position: absolute;
+    top: 100%;
+    width: 300px;
 }
