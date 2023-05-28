@@ -11,11 +11,6 @@ body{
     height: 100vh;
 }
 
-header{
-    height: 5%;
-    width: 20%;
-}
-
 .logo{
     align-items: flex-start;
     display: flex;
@@ -39,11 +34,11 @@ main{
     height: 600px;
     left: 200px;
     padding-left: 100px;
-    width: 1080px;
+    width: 100%;
     
 }
 
-.cajaTexto.auto-resize{
+.cajaTexto{
     background-color: #f4f4fc;
     border: none;
     color: #0A3871;
@@ -52,12 +47,12 @@ main{
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
-    height: auto;
+    height: 48px;
     left: 240px;
     line-height: 150%;
     position: absolute;
     text-align: justify;
-    top: 168px;
+    top: 200px;
     width: 577px;
 }
 
