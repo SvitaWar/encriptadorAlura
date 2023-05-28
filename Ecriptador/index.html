@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Ecriptador/style.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap">
+    <link rel="stylesheet" href="/Ecriptador/script.js">
+    <script src="./script.js" defer></script>
+    <title>Encriptador Alura</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="/Ecriptador/img/Logo.svg" alt="logo">
+    </header>
+    <main>
+        <section class="seccion1">
+            <div class="contenedor-CajaTexto">
+                <textarea placeholder="Ingrese el texto aquí" class="cajaTexto"></textarea>
+            </div>
+            <div class="alerta">
+                <img src="/Ecriptador/img/alerta.svg">
+                <p>Solo letras minúsculas y sin acentos.</p>
+            </div>
+            <div class="contenedor-botones">
+                <input type="button" class="btn-encriptar" value="Encriptar">
+                <input type="button" class="btn-desencriptar" value="Desencriptar">
+            </div>
+        </section>
+        <section class="seccion2"> 
+            <div class="contenedor1"> 
+                <div class="contenedor-munieco">
+                    <img src="/Ecriptador/img/Muñeco.svg" alt="munieco">
+                </div>
+                <div class="contenedor-parrafo">
+                    <h3>Ningún mensaje fue encontrado <br></h3>
+                    <p>Ingrese el texto que desees encriptar o desencriptar.<br></p>
+                </div>
+            </div>
+            <div class="contenedor2 ocultar"  >
+                
+                <p class="texto-resultado"></p>
+                         
+                <button class="btn-copiar">copiar</button>
+            </div>
+        
+        </section>
+    </main>
+</body>
+</html>
